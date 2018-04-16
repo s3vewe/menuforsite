@@ -1,0 +1,22 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.food-category{
+    height: auto;
+    width: 20 px;
+    border-style: dashed;
+    text-decoration: none;
+}
+.soup{
+    height: auto;
+    width: 20 px;
+    border-style: dashed;
+    text-decoration: none;
+}
+.soups{
+    height: auto;
+    width: 20 px;
+    border-style: solid;
+    text-decoration: none;
+}
