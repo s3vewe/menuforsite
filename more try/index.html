@@ -1,0 +1,56 @@
+<div class="container">
+   <div class="row" id="text">
+      <div class="col-xs-12">
+         <div class="form-group">
+            <label for="" class="col-md-6 control-label">Click on this text box:</label>
+            <div class="col-md-6">
+               <input type="text" class="form-control" id="textbox" placeholder="then use tab to move to next input">
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="row" id="radios">
+      <div class="col-xs-12">
+         <div class="form-group">
+            <label for="" class="col-md-6 control-label">Choose one radio option:</label>
+            <div class="col-md-6">
+               <input name="radio" type='hidden' value="Yes"/>
+               <div class="btn-group" data-toggle="buttons">
+                  <button type="button" class="btn btn-default active" data-radio-name="radio">Yes</button>
+                  <button type="button" class="btn btn-default" data-radio-name="radio">Maybe</button>
+                  <button type="button" class="btn btn-default" data-radio-name="radio">No</button>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="row" id="checkboxes">
+      <div class="col-xs-12">
+         <div class="form-group">
+            <label for="" class="col-md-6 control-label">Select any checkbox options:</label>
+            <div class="col-md-6">
+               <input name="checkbox1" type="hidden" value="0"/>
+               <input name="checkbox2" type="hidden" value="0"/>
+               <input name="checkbox3" type="hidden" value="0"/>
+               <div class="btn-group-vertical" data-toggle="buttons">
+                  <button type="button" class="btn btn-default" data-checkbox-name="checkbox1">Yes</button>
+                  <button type="button" class="btn btn-default" data-checkbox-name="checkbox2">Maybe</button>
+                  <button type="button" class="btn btn-default" data-checkbox-name="checkbox3">No</button>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="row" id="submit">
+      <div class="col-xs-12">
+         <div class="form-group">
+            <div class="col-md-6">
+               Becasue this type of radio and checkbox group only show labels the focus misses them out and moves directly to the next input:
+            </div>
+            <div class="col-md-6">
+               <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
